@@ -1,0 +1,41 @@
+# HarmonyOS / DevEco Studio / Hvigor / OHPM
+.hvigor/
+.idea/
+.cxx/
+.preview/
+.test/
+build/
+**/build/
+oh_modules/
+**/oh_modules/
+node_modules/
+local.properties
+*.log
+*.tsbuildinfo
+
+# Compiled packages & native binaries
+*.hap
+*.hsp
+*.har
+*.app
+*.so
+*.abc
+*.pack
+
+# Signing certificates, profiles & local secrets (NEVER commit)
+*.p12
+*.cer
+*.p7b
+*.csr
+*.jks
+*.keystore
+signing/
+.env
+.env.*
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
